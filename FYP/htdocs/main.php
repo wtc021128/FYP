@@ -10,9 +10,8 @@ $wall_paper = "mbg.jifi";
     <div id=r3 align="center" style="word-spacing: 30px;"><a href="index.php">Home</a>
     <a href="QA.php">Paper 1</a>
     <a href="MC.php">Paper 2 MC</a>
-    <a href="login.php">Login</a></td></font></div>
-    <div id=r4 ></a>
-    </td>
+    <a href="login.php">Login</a></font></td></div>
+    <div id=r4 ><a href="Sign up.php">Sign up</a>
     </div>
  
     <!--introduce and music-->

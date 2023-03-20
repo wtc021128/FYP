@@ -1,13 +1,16 @@
+<?php
+$wall_paper = "mbg.jifi";
+?>
 <body>
- 
+
 <div id="flex-container">
     <!--page button-->
    
     <div id=r2><td align="center"><font color="#e6c35c" size="6">DSE Math </div>
-    <div id=r3 align="center" style="word-spacing: 30px;"><a href="index.html">Home</a>
-    <a href="mc.html"> Paper 2 MC</a>
-    <a href="QA.html">Paper 1</a>
-    <a href="Game.html">Recommend_Game</a></td></font></div>
+    <div id=r3 align="center" style="word-spacing: 30px;"><a href="index.php">Home</a>
+    <a href="QA.php">Paper 1</a>
+    <a href="MC.php">Paper 2 MC</a>
+    <a href="login.php">Login</a></td></font></div>
     <div id=r4 ></a>
     </td>
     </div>

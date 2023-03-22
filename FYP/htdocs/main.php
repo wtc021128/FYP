@@ -1,6 +1,12 @@
-<?php
-$wall_paper = "mbg.jifi";
-?>
+<style>
+    body{background-image: url(mbg.jfif);
+    background-size: cover;background-attachment: fixed;
+    background-repeat: no-repeat;background-position: center;
+    }
+</style>
+<title>
+    Home page
+</title>
 <body>
 
 <div id="flex-container">
@@ -31,7 +37,8 @@ $wall_paper = "mbg.jifi";
         <td align="center" width="700" >
             <div>
             <font size="7" align="center" color="#CCFF80">
-            Our system is to provide a platform for dse students to learn and review mathematics independently.  At the same time, it can also provide teachers with a platform for automatic questioning, reducing the pressure on teachers
+            Our system is to provide a platform for dse students to learn and review mathematics independently.  
+            At the same time, it can also provide teachers with a platform for automatic questioning, reducing the pressure on teachers.
             </font>
         </td>
         <td>

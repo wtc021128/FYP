@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Game.html</title>
+<title>MC</title>
 <style>
     /* --- set style ---*/
     body{background-image: url(G1.png);

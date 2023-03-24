@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MC</title>
+<title>MC Question</title>
 <style>
     /* --- set style ---*/
     body{background-image: url(G1.png);

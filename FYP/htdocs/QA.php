@@ -31,7 +31,9 @@
   }
 </script>
 </head>
- 
+<title>
+  Question Answer
+</title>
 <body>
     <div id="flex-container">
         <!--page button-->

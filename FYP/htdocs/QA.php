@@ -35,16 +35,16 @@
   Question Answer
 </title>
 <body>
-    <div id="flex-container">
-        <!--page button-->
-       
-        <div id=r2><td align="center"><font color="#e6c35c" size="6">DSE Math </div>
-        <div id=r3 align="center" style="word-spacing: 30px;"><a href="index.php">Home</a>
-          <a href="QA.php">Paper 1</a>
-          <a href="MC.php">Paper 2 MC</a>
-          <a href="login.php">Login</a></td></font></div>
-          <div id=r4 ></a>
-          </div>
+<div id="flex-container">
+  <!-- page buttons -->
+  <div id="r2">
+    <h1 style="text-align:center; color:#6495ED; font-size:35px;">DSE Math</h1>
+  </div>
+  <div id="r3" style="text-align:center;">
+    <a href="index.php" style="text-decoration:none; margin-right:25px; font-size:35px">Home</a>
+    <a href="QA.php" style="text-decoration:none; margin-right:25px; font-size:35px">Paper 1</a>
+    <a href="MC.php" style="text-decoration:none; margin-right:25px; font-size:35px">Paper 2 MC</a>
+    </div>
         </td>
     </div>
         <!--make from and submit-->

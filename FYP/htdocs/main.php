@@ -10,16 +10,21 @@
 <body>
 
 <div id="flex-container">
-    <!--page button-->
-   
-    <div id=r2><td align="center"><font color="#e6c35c" size="6">DSE Math </div>
-    <div id=r3 align="center" style="word-spacing: 30px;"><a href="index.php">Home</a>
-    <a href="QA.php">Paper 1</a>
-    <a href="MC.php">Paper 2 MC</a>
-    <a href="login.php">Login</a></font></td></div>
-    <div id=r4 ><a href="Sign up.php">Sign up</a>
+  <!-- page buttons -->
+  <div id="r2;" style="text-align:left; color:#6495ED; font-size:30px;">
+    DSE <br><font size="5"><B>Subject:Math</font></B>
+  </div>
+  <div id="r4" style="text-align:right;">
+    <a href="index.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Home</a>
+    <a href="QA.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Paper 1</a>
+    <a href="MC.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Paper 2 (MC)</a>
     </div>
- 
+  <div id="r4" style="text-align:right;">
+    <button onclick="window.location.href='login.php'" style="font-size:10px">Login</button><P>
+    <button onclick="window.location.href='Sign up.php'" style="font-size:5px">Sign up</button>    
+  </div>
+</div>
+<hr style="border-color: black; border-width: 2px;">
     <!--introduce and music-->
 <table border="0" align="center">
     <tr>
@@ -36,7 +41,7 @@
         </td>
         <td align="center" width="700" >
             <div>
-            <font size="7" align="center" color="#CCFF80">
+            <font size="7" align="center" color="#454545">
             Our system is to provide a platform for dse students to learn and review mathematics independently.  
             At the same time, it can also provide teachers with a platform for automatic questioning, reducing the pressure on teachers.
             </font>
@@ -47,4 +52,5 @@
     </tr>
    <!-- </table>-->
     </div>
+    <hr style="border-color: black; border-width: 2px;">   
 </body>

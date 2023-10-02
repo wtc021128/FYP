@@ -11,8 +11,8 @@ switch($page){  // 依照 GET 參數載入共用的內容
     case "main";
       include('main.php');
     break;
-    case "list";
-      include('list.php');
+    case "QA";
+      include('QA.php');
     break;
     case "hero";
       include('hero.php');

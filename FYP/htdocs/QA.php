@@ -1,136 +1,112 @@
-<script>
-  function print_result() {
- 
-    var name = document.f1.name.value;
-    alert("Name = " + name);
- 
-    var gender;
-    if (document.f1.gender[0].checked)
-      gender = document.f1.gender[0].value;
-    else
-      gender = document.f1.gender[1].value;
-    alert("Gender = " + gender);
- 
-    var age;
-    if (document.f1.age[0].checked)
-     age = document.f1.age[0].value;
-    else
-      age = document.f1.age[1].value;
-    alert("Age = " + age);
- 
-    var PN = "";
-    alert("Phone number = " + PN)
- 
-    var index = document.f1.District.selectedIndex;
-    var District_val = document.f1.District.options[index].value;
-    var District_text = document.f1.District.options[index].text;
-    alert("District = " + District_text + " " + District_val);
- 
-    var email = document.f1.email.value;
-    alert("Email = " + email);
+<style>
+    body{background-image: url(mbg.jfif);
+    background-size: cover;background-attachment: fixed;
+    background-repeat: no-repeat;background-position: center;
+    }
+    .black-solid-border {
+    border: 1px solid black;
   }
-</script>
-</head>
+</style>
 <title>
-  Question Answer
+    Home page
 </title>
 <body>
+
 <div id="flex-container">
-  <!-- page buttons -->
-  <div id="r2">
-    <h1 style="text-align:center; color:#6495ED; font-size:35px;">DSE Math</h1>
+  <div id="r4" style="text-align:center;">
+    <a href="index.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Home</a>
+    <a href="QA.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Paper 1</a>
+    <a href="MC.php" style="text-decoration:none; margin-right:25px; font-size:35px;">Paper 2 (MC)</a>
+    </div>
+  <div id="r4" style="text-align:right;">
+    <button onclick="window.location.href='login.php'" style="font-size:10px">Login</button><P>
+    <button onclick="window.location.href='Sign up.php'" style="font-size:5px">Sign up</button>    
   </div>
-  <div id="r3" style="text-align:center;">
-    <a href="index.php" style="text-decoration:none; margin-right:25px; font-size:35px">Home</a>
-    <a href="QA.php" style="text-decoration:none; margin-right:25px; font-size:35px">Paper 1</a>
-    <a href="MC.php" style="text-decoration:none; margin-right:25px; font-size:35px">Paper 2 MC</a>
-    </div>
-        </td>
-    </div>
-        <!--make from and submit-->
-  <form name="f1" onSubmit="print_result()">
-    <table border="5" align="center">
-      <tr>
-        <td>Name</td>
-        <td>
-          <input type="text" name="name" pattern="^[A-Z][a-z]*$"
-                 title="Capital first character"
-                 required="required" />
-        </td>
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td>
-          <input type="radio" name="gender" value="M"
-                 required="required" />Male
-          <input type="radio" name="gender" value="F" />Female
-        </td>  
-      </tr>
-      <tr>
-        <td>Age</td>
-        <td>
-          <input type="radio" name="age" value="≤18" required="required"/>
-            ≤18
-          <input type="radio" name="age" value="18-29" />
-            19-29
-          <input type="radio" name="age" value="≥30" />
-            ≥ 30
-        </td>
-      </tr>
-      <tr>
-        <td>Phone Number</td>
-        <td>
-            <input type="text" name="PN" pattern="^[8][5][2][-][0-9]{8}$"
-            title="Please enter 852-XXXXXXXX"
-            required="required" />
-        </td>  
-      </tr>
-      <tr>
-        <td>District</td>
-        <td>
-          <select name="District">
-            <option value="CW">Central and Western</option>
-            <option value="EA">Eastern</option>
-            <option value="SO">Southern</option>
-            <option value="WC">Wan Chai</option>
-            <option value="KC">Kowloon City</option>
-            <option value="KT">Kwun Tong</option>
-            <option value="SSP">Sham Shui Po</option>
-            <option value="WTS">Wong Tai Sin</option>
-            <option value="YTM">Yau Tsim Mong</option>
-            <option value="IS">Islands</option>
-            <option value="KTS">Kwai Tsing</option>
-            <option value="NO">North</option>
-            <option value="SK">Sai Kung</option>
-            <option value="ST">Sha Tin</option>
-            <option value="TP">Tai Po</option>
-            <option value="TW">Tsuen Wan</option>
-            <option value="TM">Tuen Mun</option>
-            <option value="YL">Yuen Long</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td>Email</td>
-        <td>
-          <input type="email" name="Email"
-                 title="email"
-                 required="required" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-            <input type="checkbox" required="required" />
-            <label>* I agree to terms of service.</label>
-        </td>
-      </tr>
-    </table>
-    <table border="0" align="center">
-        <tr>
-            <td>
-            <input type="submit" value="Submit" />
-            </td>
-        </tr>
-    </table>
-  </form>
-</body>
+</div>
+<hr style="border-color: black; border-width: 2px;">
+<table border="0" align="center">
+<tr>
+  <td >
+  </td>
+  <td align="center">
+    <font size="6"><B> 數學/Mathematics </f><B>
+  </td>
+  <td >
+  </td>
+<tr>
+  <td align="center" width="400">
+  <font size="4"><li><a href="#one">By Topic</a></li></f>
+  </td>
+  <td align="center" width="400">
+  <font size="4"><a>DSE (中)</f></a>
+  </td>
+  <td align="center" width="400">
+  <font size="4"><a>DSE (英)</f></a>
+  </td>
+  <tr>
+    <td height="30">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+<tr>
+  <td align="center">
+  <font size="4"><a>Math&Stat</f></a>
+  </td>
+  <td align="center">
+  <font size="4"><a>PureMaths</f></a>
+  </td>
+  <td align="center">
+  <font size="4"><a>AddMaths</f></a>
+  </td>
+</tr>
+<tr>
+    <td height="100">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+<Tr align="center">
+  <td>
+  </td>
+    <td align="center">
+      <br id="one">
+      <font size="6">By Topic</f>
+    </td>
+  <td>
+  </td>
+<tr>
+  <td><font size="5">Paper 1</td></f>
+  <td>
+  </td>
+  <td>
+  </td>
+<tr>
+  <td colspan="3" class="black-solid-border"><font size="4"> Topic 1 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/1.pdf"><B>Estimation</a></b>
+  Topic 2 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/2.pdf">Percentages</a></b> 
+  Topic 3 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/3.pdf">Indices and Logarithms</a></b> 
+  Topic 4 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/4.pdf">Polynomials</a></b> 
+  Topic 5 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/5.pdf">Formulas</a></b> 
+  Topic 6 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/6.pdf">Identities, Equations and the Number System</a></b> 
+  Topic 7 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/7.pdf">Functions and Graphs</a></b> 
+  Topic 8 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/8.pdf">Rate, Ratio and Variation</a></b> 
+  Topic 9 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/9.pdf">Arithmetic and Geometric Sequences</a></b> 
+  Topic 10 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/10.pdf">Inequalities and Linear Programming</a></b>
+  Topic 11 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/11.pdf">Geometry of Rectilinear Figure</a></b> 
+  Topic 12 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/12.pdf">Geometry of Circles</a></b> 
+  Topic 13 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/13.pdf">Basic Trigonometry</a></b> 
+  Topic 14 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/14.pdf">Applications of Trigonometry</a></b> 
+  Topic 15 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/15.pdf">Mensuration</a></b> 
+  Topic 16 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/16.pdf">Coordinate Geometry</a></b> 
+  Topic 17 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/17.pdf">Counting Principles and Probability</a></b> 
+  Topic 18 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/18.pdf">Statistics</a></b>
+  <br><a href="https://dse.life/static/pp/m0/eng/bytopic/p1/bk1.pdf">Book 1 Topic 1-18</a></b></f>
+
+
+  
+
+
+
+

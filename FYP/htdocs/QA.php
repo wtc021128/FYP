@@ -688,3 +688,598 @@
     <br><font size="5"><a href="https://www.dse.life/static/pp/m1/mands/2013.pdf">Question Paper</a>
     &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m1/mands/2013ms.pdf">Answer</a>
   </td>
+  <tr>
+    <td height="100">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+<Tr align="center">
+  <td>
+  </td>
+    <td align="center">
+      <br id="four">
+      <font size="6">Pure Maths</f><a href="#top"><font size="2">Go to Top</f>
+    </td>
+  <td>
+  </td>
+  <tr>
+    <td height="50">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  <tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1980</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1980.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1980ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1981</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1981.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1981ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1982</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1982.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1982ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1983</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1983.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1983ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1984</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1984.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1984ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1985</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1985.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1985ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1986</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1986.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1986ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1987</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1987.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1987ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1988</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1988.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1988ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1989</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1989.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1989ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1990</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1990.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1990ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1991</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1991.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1991ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1992</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1992.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1992ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1993</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1993.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1993ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1994</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1994.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1994ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1995</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/pmaths/1995.pdf">Paper1&2</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/pmaths/1995ms.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="100">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+<Tr align="center">
+  <td>
+  </td>
+    <td align="center">
+      <br id="four">
+      <font size="6">Add Maths</f><a href="#top"><font size="2">Go to Top</f>
+    </td>
+  <td>
+  </td>
+  <tr>
+    <td height="50">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  <tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1980</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1980/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1980/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1980/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1980/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1981</f>
+    <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1981/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1981/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1981/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1981/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1982</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1982/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1982/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1982/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1982/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1983</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1983/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1983/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1983/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1983/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1984</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1984/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1984/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1984/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1984/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1985</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1985/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1985/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1985/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1985/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1986</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1986/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1986/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1986/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1986/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1987</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1987/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1987/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1987/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1987/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1988</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1988/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1988/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1988/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1988/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1989</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1989/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1989/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1989/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1989/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1990</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1990/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1990/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1990/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1990/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1991</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1991/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1991/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1991/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1991/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1992</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1992/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1992/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1992/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1992/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1993</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1993/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1993/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1993/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1993/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1994</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1994/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1994/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1994/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1994/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1995</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1995/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1995/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1995/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1995/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1996</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1996/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1996/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1996/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1996/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1997</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1997/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1997/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1997/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1997/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1998</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1998/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1998/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1998/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1998/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>1999</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/1999/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1999/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1999/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/1999/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2000</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2000/p1.pdf">Section A</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2000/p2.pdf">Section B</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2000/p1ans.pdf">Section A Answer</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2000/p2ans.pdf">Section B Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2001</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2001/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2001/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2002</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2002/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2002/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2003</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2003/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2003/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2004</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2004/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2004/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2005</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2005/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2005/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2006</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2006/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2006/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2007</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2007/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2007/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2008</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2008/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2008/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2009</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2009/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2009/ans.pdf">Answer</a>
+  </td>
+  <tr>
+    <td height="25">
+    </td>
+    <td>
+    </td>
+    <td>
+    </td><tr>
+  <td colspan="3" class="black-solid-border"><font size="6"><B>2011</f>
+  <br><font size="5"><a href="https://www.dse.life/static/pp/m2/amaths/2011/pp.pdf">Question Paper</a>
+    &nbsp; &nbsp; &nbsp; <a href="https://www.dse.life/static/pp/m2/amaths/2011/ans.pdf">Answer</a>
+  </td>

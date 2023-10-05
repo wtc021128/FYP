@@ -699,7 +699,7 @@
   <td>
   </td>
     <td align="center">
-      <br id="four">
+      <br id="five">
       <font size="6">Pure Maths</f><a href="#top"><font size="2">Go to Top</f>
     </td>
   <td>
@@ -893,7 +893,7 @@
   <td>
   </td>
     <td align="center">
-      <br id="four">
+      <br id="six">
       <font size="6">Add Maths</f><a href="#top"><font size="2">Go to Top</f>
     </td>
   <td>

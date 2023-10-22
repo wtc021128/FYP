@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： localhost
--- 產生時間： 2023-10-02 16:29:14
+-- 產生時間： 2023-10-22 15:42:22
 -- 伺服器版本： 8.0.34
 -- PHP 版本： 8.2.4
 
@@ -52,9 +52,9 @@ INSERT INTO `admin` (`adminID`, `admin_Name`, `password`, `email`, `Phone`) VALU
 --
 
 CREATE TABLE `all_user` (
-  `user_id` varchar(255) NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `user_type` varchar(255) DEFAULT NULL
+  `user_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `user_type` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -91,9 +91,9 @@ CREATE TABLE `exam` (
 --
 
 CREATE TABLE `lesson` (
-  `lesson_id` varchar(255) NOT NULL,
-  `topic_id` varchar(255) NOT NULL,
-  `title` varchar(255) DEFAULT NULL
+  `lesson_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `topic_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -103,10 +103,10 @@ CREATE TABLE `lesson` (
 --
 
 CREATE TABLE `log` (
-  `log_id` varchar(255) NOT NULL,
-  `user_id` varchar(255) NOT NULL,
-  `action` varchar(255) DEFAULT NULL,
-  `timestamp` varchar(255) DEFAULT NULL
+  `log_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `user_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `action` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `timestamp` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -116,8 +116,8 @@ CREATE TABLE `log` (
 --
 
 CREATE TABLE `mathtopic` (
-  `topic_id` varchar(255) NOT NULL,
-  `topic_name` varchar(255) NOT NULL
+  `topic_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `topic_name` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -161,9 +161,9 @@ CREATE TABLE `question_type` (
 --
 
 CREATE TABLE `quiz` (
-  `quiz_id` varchar(255) NOT NULL,
-  `topic_id` varchar(255) NOT NULL,
-  `title` varchar(255) NOT NULL
+  `quiz_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `topic_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -173,10 +173,10 @@ CREATE TABLE `quiz` (
 --
 
 CREATE TABLE `quizquestion` (
-  `quiz_question_id` varchar(255) NOT NULL,
-  `quiz_id` varchar(255) NOT NULL,
-  `question_text` varchar(255) NOT NULL,
-  `correct_answer` varchar(255) NOT NULL
+  `quiz_question_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `quiz_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `question_text` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `correct_answer` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -187,17 +187,20 @@ CREATE TABLE `quizquestion` (
 
 CREATE TABLE `registered_users` (
   `cna` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `role` enum('Administration','Student') COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- 傾印資料表的資料 `registered_users`
 --
 
-INSERT INTO `registered_users` (`cna`, `username`, `email`, `password`) VALUES
-('carlos', 'carlos', 'carlos123@gmail.com', '$2y$10$7302QkjwsOa3oje2HlKFseUgYjTfPaYBNIEjLNdmV5ymXMFm6I6pK');
+INSERT INTO `registered_users` (`cna`, `username`, `email`, `password`, `role`) VALUES
+('A000', 'Admin', 'Admin@gmail.com', '$2y$10$YEqCMRvE9GjFGe3f9aquWuPX2ShBn0sYjXcYKpJU783r8Dq9vJx22', 'Administration'),
+('carlos', 'carlos', 'carlos123@gmail.com', '$2y$10$7302QkjwsOa3oje2HlKFseUgYjTfPaYBNIEjLNdmV5ymXMFm6I6pK', 'Student'),
+('cna', 'cna', 'cna@gmail.com', '$2y$10$q6RKcbok52W7fDHN2b8Dhu.NIQrQWDb1nsJGLhtz/tMN2hDbIR5hy', 'Student');
 
 -- --------------------------------------------------------
 
@@ -206,10 +209,10 @@ INSERT INTO `registered_users` (`cna`, `username`, `email`, `password`) VALUES
 --
 
 CREATE TABLE `student` (
-  `student_id` varchar(255) NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -219,9 +222,9 @@ CREATE TABLE `student` (
 --
 
 CREATE TABLE `studentassignment` (
-  `student_ass_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL,
-  `assignment_id` varchar(255) NOT NULL,
+  `student_ass_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `assignment_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `submission` tinyint(1) NOT NULL,
   `submission_date` date NOT NULL,
   `grade` int NOT NULL
@@ -234,9 +237,9 @@ CREATE TABLE `studentassignment` (
 --
 
 CREATE TABLE `studentexam` (
-  `student_exam_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL,
-  `exam_id` varchar(255) NOT NULL,
+  `student_exam_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `exam_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `score` int DEFAULT NULL,
   `sumbit_date` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -248,9 +251,9 @@ CREATE TABLE `studentexam` (
 --
 
 CREATE TABLE `studentprofile` (
-  `profile_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL,
-  `bio` varchar(255) NOT NULL,
+  `profile_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `bio` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `contact_info` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -261,10 +264,10 @@ CREATE TABLE `studentprofile` (
 --
 
 CREATE TABLE `studentprogress` (
-  `progress_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL,
-  `topic` varchar(255) DEFAULT NULL,
-  `progress_percentage` varchar(255) DEFAULT NULL
+  `progress_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `topic` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `progress_percentage` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -274,9 +277,9 @@ CREATE TABLE `studentprogress` (
 --
 
 CREATE TABLE `studentquizattempt` (
-  `attempt_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL,
-  `quiz_id` varchar(255) NOT NULL,
+  `attempt_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `quiz_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `submission` tinyint(1) NOT NULL,
   `submission_date` date NOT NULL,
   `score` int NOT NULL
@@ -289,8 +292,8 @@ CREATE TABLE `studentquizattempt` (
 --
 
 CREATE TABLE `studentregister` (
-  `register_id` varchar(255) NOT NULL,
-  `student_id` varchar(255) NOT NULL
+  `register_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `student_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -301,9 +304,9 @@ CREATE TABLE `studentregister` (
 
 CREATE TABLE `teacher` (
   `teacher_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
+  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `phone_number` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -314,9 +317,9 @@ CREATE TABLE `teacher` (
 --
 
 CREATE TABLE `teacherassignment` (
-  `teacher_ass_id` varchar(255) NOT NULL,
-  `teacher_id` varchar(255) NOT NULL,
-  `assignment_id` varchar(255) NOT NULL
+  `teacher_ass_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `teacher_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `assignment_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -327,8 +330,8 @@ CREATE TABLE `teacherassignment` (
 
 CREATE TABLE `teacherprofile` (
   `profile_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `teacher_id` varchar(255) NOT NULL,
-  `bio` varchar(255) DEFAULT NULL,
+  `teacher_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `bio` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
   `contact_info` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -339,7 +342,7 @@ CREATE TABLE `teacherprofile` (
 --
 
 CREATE TABLE `websitestatistics` (
-  `stats_id` varchar(255) NOT NULL,
+  `stats_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `page_views` int NOT NULL,
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

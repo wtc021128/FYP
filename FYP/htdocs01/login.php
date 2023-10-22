@@ -31,11 +31,11 @@
 
   <header class="header">
 
-     <font align="center" size="6">DSE <br>Subject:Math</font>
+     <font align="center" size="6" ><B> DSE <br>Subject:Math</font></B>
      
      <nav class="navlist">
-        <a href="login.php">Home</a>
-        <a href="QA.php">Paper 1</a>
+        <a href="#">Home</a>
+        <a href="#">Paper 1</a>
         <a href="#">Paper 2(MC)</a>
         <a href="#">Learing</a>
      </nav>
@@ -51,6 +51,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
      </div>
      ";
      }
+     
       else
       {
         echo"

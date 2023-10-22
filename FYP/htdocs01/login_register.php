@@ -18,7 +18,7 @@ if(isset($_POST['login']))
             {
                 $_SESSION['logged_in']=true;
                 $_SESSION['username']=$result_fetch['username'];
-                header("location: login.php");
+                header("location: login2.php");
             }
             else
             {

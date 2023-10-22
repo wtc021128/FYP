@@ -1,3 +1,8 @@
+<?php
+require('connection.php');
+session_start();
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -33,10 +38,10 @@
 
   <header class="header">
 
-  <font align="center" size="6">DSE <br>Subject:Math</font>
+  <font align="center" size="6" ><B> DSE <br>Subject:Math</font></B>
      
      <nav class="navlist">
-        <a href="login.php">Home</a>
+        <a href="login2.php">Home</a>
         <a href="QA.php">Paper 1</a>
         <a href="#">Paper 2(MC)</a>
         <a href="#">Learing</a>
@@ -52,6 +57,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
         $_SESSION[username] - <a href='logout.php'> Logout </a>
      </div>
      ";
+     
      }
       else
       {
@@ -108,13 +114,6 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
     </div>
   </div>
 
-  <?php 
-    if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
-    {
-      echo"<h1 style='text-align: center; margin-top: 200px> WELCOME TO THIS WEBSITE - $_SESSION[username]</h1>";
-    }
-  ?>
-
   <script>
     function interface(interface_name)
     {
@@ -136,6 +135,20 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
     </tr>
 </table>
 
+  <script>
+    function interface(interface_name)
+    {
+      get_interface=document.getElementById(interface_name);
+      if(get_interface.style.display=="flex")
+      {
+        get_interface.style.display="none";
+      }
+      else
+      {
+        get_interface.style.display="flex";
+      }
+    }
+  </script>
   <table border="0" class="tableInner">
 
 <tr>
@@ -191,13 +204,13 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
   <td>
   </td>
 <tr>
-  <td><font size="5">Paper 1</td></f>
+  <td><h1><font size="6" >Paper 1</td></f></h1>
   <td>
   </td>
   <td>
   </td>
 <tr>
-  <td colspan="3" class="black-solid-border"><font size="4"> Topic 1 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/1.pdf"><B>Estimation</a></b>
+  <td colspan="3" class="black-solid-border"><font size="5"> Topic 1 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/1.pdf"><B>Estimation</a></b>
   Topic 2 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/2.pdf">Percentages</a></b> 
   Topic 3 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/3.pdf">Indices and Logarithms</a></b> 
   Topic 4 <a href="https://dse.life/static/pp/m0/eng/bytopic/p1/4.pdf">Polynomials</a></b> 

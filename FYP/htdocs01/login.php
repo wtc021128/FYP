@@ -31,7 +31,7 @@
 
   <header class="header">
 
-     <h2 href="#">VTC. E02 - Learning Platform. </h2>
+     <font align="center" size="6">DSE <br>Subject:Math</font>
      
      <nav class="navlist">
         <a href="login.php">Home</a>
@@ -137,32 +137,28 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
 <table border="0" align="center">
     <tr>
         <td width="2000" height="200" align="center">
-         <font size="10" color="#FF2D2D" ><U><B>System Introduction</B></font>
+         <font size="10" color="#56D18A" ><U><B>System Introduction</B></font>
         </td>
     </tr>
 </table>
-
-    <!--introduce and music-->
-
- 
-    <!--<table border="0">-->
-    <tr>
-        <td align="left">
-            <!--<img src="" width="500" height="200">-->
-        </td>
-        <td align="center" width="700" >
-            <div>
-            <font size="7" align="center" color="#454545">
-            Our system is to provide a platform for dse students to learn and review mathematics independently.  
-            At the same time, it can also provide teachers with a platform for automatic questioning, reducing the pressure on teachers.
-            </font>
-        </td>
-        <td>
-            <!--<img id="r1" src="" width="550" height="400">-->
-        </td>
+<table border="0">
+  <tr>
+    <td width="400" align="center">
+     <img src="dse.jpg" width="400" height="300">
+    </td>
+    <td align="center" colspan="3">
+      <div>
+        <font size="7" color="#454545">
+          Our system is to provide a platform for dse students to learn and review mathematics independently.  
+          At the same time, it can also provide teachers with a platform for automatic questioning, reducing the pressure on teachers.
+        </font>
+    </td>
+    <td >
+    </td>
     </tr>
    <!-- </table>-->
     </div>
+</table>
     <hr style="border-color: black; border-width: 2px;">   
 
 </body>

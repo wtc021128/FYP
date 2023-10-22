@@ -33,7 +33,7 @@
 
   <header class="header">
 
-     <h2 href="#">VTC. E02 - Learning Platform. </h2>
+  <font align="center" size="6">DSE <br>Subject:Math</font>
      
      <nav class="navlist">
         <a href="login.php">Home</a>

@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="keywords" content="E02-Login&registerpage">
   <title>E02 - login</title>
-  <link rel="stylesheet" href=".\.\style4.css">
+  <link rel="stylesheet" href=".\.\style.css">
 </head>
 
 <body>
@@ -75,7 +75,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
           <button type="reset" onclick="interface('login-interface')">X</button>
         </h2>        
 <!-- login -->
-        <input type="text" placeholder="E-mail or Username" name="email_username" >
+        <input type="text" placeholder="E-mail or Username" name="email_username"  >
         <input type="password" id="loginPassword" placeholder="Password" name="password">
         <!-- eye -->
         <button type="button" id="toggleLoginPassword">Show Password</button>
@@ -93,10 +93,10 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
           <button type="reset" onclick="interface('register-interface')">X</button>
         </h2>        
 <!-- register -->
-        <input type="text" placeholder="CNA" name="cna">
-        <input type="text" placeholder="Username" name="username">
-        <input type="email" placeholder="E-mail" name="email">
-        <input type="password" id="registerPassword" placeholder="Password" name="password">
+        <input type="text" placeholder="CNA eg.a0000-Z999999" name="cna" required="required" pattern="[0-9a-z!@#$%^&*]{4,7}">
+        <input type="text" placeholder="Username eg. CHAN TAI MAN" name="username" required="required">
+        <input type="email" placeholder="E-mail" name="email eg. xxxxx@" required="required">
+        <input type="password" id="registerPassword" placeholder="Password eg. Password1" name="password"  required="required" title="Please enter a 7-10 digit password, the first digit must be in uppercase English" pattern="^[A-Z][0-9a-zA-Z]{6,15}">
         <!-- eye -->
         <button type="button" id="toggleRegisterPassword">Show Password</button>
         <button type="submit" class="register-btn" name="register">REGISTER</button>

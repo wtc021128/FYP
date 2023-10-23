@@ -12,7 +12,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="keywords" content="E02-Login&registerpage">
-  <title>E02 - login</title>
   <link rel="stylesheet" href=".\.\style1.css">
 </head>
 
@@ -33,15 +32,7 @@
 
      <font align="center" size="6" ><B> DSE <br>Subject:Math</font></B>
      
-     <nav class="navlist">
-        <a href="#">Home</a>
-        <a href="#">Paper 1</a>
-        <a href="#">Paper 2(MC)</a>
-        <a href="#">Learing</a>
-     </nav>
-
-     
-    <?php
+      <?php
 
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       {
@@ -93,7 +84,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
           <button type="reset" onclick="interface('register-interface')">X</button>
         </h2>        
 <!-- register -->
-        <input type="text" placeholder="CNA eg.a0000-Z999999" name="cna" required="required" pattern="[0-9a-z!@#$%^&*]{4,7}">
+        <input type="text" placeholder="CNA: 請輸入一個大寫英文和七個數字" name="cna" required="required" pattern="[A-Z]{1}[0-9]{7}">
         <input type="text" placeholder="Username eg. CHAN TAI MAN" name="username" required="required">
         <input type="email" placeholder="E-mail" name="email eg. xxxxx@" required="required">
         <input type="password" id="registerPassword" placeholder="Password eg. Password1" name="password"  required="required" title="Please enter a 7-10 digit password, the first digit must be in uppercase English" pattern="^[A-Z][0-9a-zA-Z]{6,15}">
@@ -128,6 +119,8 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       }
     }
   </script>
+  
+<title>主頁</title>
 <table border="0" align="center">
     <tr>
         <td width="2000" height="150" align="center">

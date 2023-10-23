@@ -203,3 +203,7 @@ div.user a{
 @keyframes button-style{
   50%{text-shadow:0px 0px 10px #ffd31d}
 }
+
+label {
+  color: #000000;    
+}

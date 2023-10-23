@@ -12,7 +12,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="keywords" content="E02-Login&registerpage">
-  <title>E02 - login</title>
   <link rel="stylesheet" href=".\.\style1.css">
 </head>
 
@@ -34,9 +33,9 @@
       <font align="center" size="6" ><B> DSE <br>Subject:Math</font></B>
      
      <nav class="navlist">
-        <a href="login2.php">Home</a>
-        <a href="QA.php">Paper 1</a>
-        <a href="#">Paper 2(MC)</a>
+        <a href="login2.php">主頁</a>
+        <a href="QA.php">試題庫</a>
+        <a href="test.php">試題練習</a>
         <a href="#">Learing</a>
      </nav>
 
@@ -47,7 +46,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       {
         echo "
         <div class='user'>         
-        $_SESSION[username] - <a href='logout.php'> Logout </a>
+        <a href='logout.php'>$_SESSION[username] -  Logout </a>
      </div>
      ";
      }
@@ -149,7 +148,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       }
     }
   </script>
-
+  <title>主頁</title>
 <table border="0" align="center">
     <tr>
         <td width="2000" height="90" align="center">

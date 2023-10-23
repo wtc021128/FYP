@@ -1,21 +1,7 @@
-
 <?php 
   require('connection.php'); 
   session_start();  
 
-// 資料庫連接設置
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "e02_db";
-  
-// 建立連接
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// 檢查連接是否成功
-if ($conn->connect_error) {
-die("連接失敗: " . $conn->connect_error);
-}
 
 // 獲取要出的題目數量
 $numQuestions = $_POST["num_questions"];

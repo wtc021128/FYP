@@ -2,12 +2,11 @@
 require('connection.php');
 session_start();
 
-
 # for login
 if(isset($_POST['login']))
 {
     $query = "SELECT * FROM `registered_users` WHERE `email`='$_POST[email_username]' OR `username`='$_POST[email_username]'";
-    $result = mysqli_query($con, $query);
+    $result = mysqli_query($conn, $query);
 
     if($result)
     {
@@ -55,7 +54,7 @@ if(isset($_POST['login']))
 if(isset($_POST['register']))
 {
   $user_exist_query = "SELECT * FROM `registered_users` WHERE `username`='$_POST[username]' OR `email`='$_POST[email]'";
-  $result = mysqli_query($con, $user_exist_query);
+  $result = mysqli_query($conn, $user_exist_query);
 
   if($result)
   {
@@ -88,7 +87,7 @@ if(isset($_POST['register']))
     {
       $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
       $query = "INSERT INTO `registered_users`(`cna`, `username`, `email`, `password`) VALUES ('$_POST[cna]','$_POST[username]','$_POST[email]','$password')";
-      if(mysqli_query($con, $query))
+      if(mysqli_query($conn, $query))
       {
         #if data insered successfully
         echo "
@@ -120,6 +119,4 @@ if(isset($_POST['register']))
     ";   
   }
 }
-
-
 ?>

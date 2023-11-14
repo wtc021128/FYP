@@ -31,3 +31,11 @@ if ($result->num_rows > 0) {
 // 關閉連接
 $conn->close();
 ?>
+<body>
+<style>
+    body{background-image: url(mbg.jfif);
+    background-size: cover;background-attachment: fixed;
+    background-repeat: no-repeat;background-position: center;
+    color: black;
+    }
+</style>

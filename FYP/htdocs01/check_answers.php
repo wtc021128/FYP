@@ -139,7 +139,7 @@ $score = 0;
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $questionId = $row['ID'];
-        $userAnswer = $_POST['answer' . $questionId];
+        $userAnswer = isset($_POST['answer' . $questionId]) ? $_POST['answer' . $questionId] : null;
         $correctAnswer = $row['correct_answer'];
         
         if ($userAnswer == $correctAnswer) {

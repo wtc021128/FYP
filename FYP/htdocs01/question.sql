@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2023-10-23 10:29:38
--- 伺服器版本： 10.4.27-MariaDB
+-- 產生時間： 2023 年 11 月 15 日 04:45
+-- 伺服器版本： 10.4.28-MariaDB
 -- PHP 版本： 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -42,8 +42,9 @@ CREATE TABLE `question` (
 --
 
 INSERT INTO `question` (`ID`, `question`, `option1`, `option2`, `option3`, `option4`, `correct_answer`) VALUES
-('001', 'test', '1', '2', '3', '4', '1'),
-('002', 'test2', '1', '2', '3', '4', '2');
+('001', '1+1', '11', '2', '0', '3', '2'),
+('002', '5^2', '5', '10', '25', '7', '25'),
+('003', '1TB = ?GB', '1TB', '1GB', '1000GB', '1024GB', '1024GB');
 
 --
 -- 已傾印資料表的索引

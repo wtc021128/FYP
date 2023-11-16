@@ -176,7 +176,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
     <div class="container">
         <form action="quiz.php" method="POST">
             <label for="num_questions"><B>請選擇題目數量：</label>
-            <input type="number" name="num_questions" min="1" max="10" required>
+            <input type="number" name="num_questions" min="1" max="10" required>(MAX:10)
             <br>
             <input type="submit" value="開始出題">
         </form>

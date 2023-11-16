@@ -129,12 +129,13 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
   </script>
 
 <?php  
-
 // 檢查答案
 $sql = "SELECT * FROM question";
 $result = $conn->query($sql);
 
 $score = 0;
+$totalQuestions = 0; // 初始化總題目數量
+$selectedQuestions = 0; // 初始化使用者選擇的題目數量
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
@@ -142,16 +143,23 @@ if ($result->num_rows > 0) {
         $userAnswer = isset($_POST['answer' . $questionId]) ? $_POST['answer' . $questionId] : null;
         $correctAnswer = $row['correct_answer'];
         
-        if ($userAnswer == $correctAnswer) {
-            $score++;
+        if (!empty($userAnswer)) {
+            $selectedQuestions++; // 使用者選擇的題目數量加一
+            
+            if ($userAnswer == $correctAnswer) {
+                $score++;
+            }
         }
+        
+        $totalQuestions++; // 總題目數量加一
     }
 }
 
 // 顯示得分
-echo "你的得分是：" . $score . "/" . $result->num_rows;
+echo "答對題目分數：" . $score . "/" . $selectedQuestions;
 
 // 關閉連接
 $conn->close();
 ?>
 
+<p><button><a href="test.php">返回</button></a>

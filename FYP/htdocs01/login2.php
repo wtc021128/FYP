@@ -36,7 +36,7 @@
         <a href="login2.php">主頁</a>
         <a href="QA.php">試題庫</a>
         <a href="test.php">試題練習</a>
-        <a href="Learing.php">Learing</a>
+        <a href="Learning.php">Learning</a>
      </nav>
 
      

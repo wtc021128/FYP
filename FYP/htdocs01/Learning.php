@@ -18,7 +18,7 @@
 <body>
 
 <style>
-    body{background-image: url(mbg.jfif);
+    body{background-image: url(L1.jpg);
     background-size: cover;background-attachment: fixed;
     background-repeat: no-repeat;background-position: center;
     }
@@ -106,26 +106,6 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
     </div>
   </div>
 
-  <script>
-    function interface(interface_name)
-    {
-      get_interface=document.getElementById(interface_name);
-      if(get_interface.style.display=="flex")
-      {
-        get_interface.style.display="none";
-      }
-      else
-      {
-        get_interface.style.display="flex";
-      }
-    }
-  </script>
-  <table border="0" align="center">
-    <tr>
-        <td width="2000" height="1" align="center">
-        </td>
-    </tr>
-</table>
 
   <script>
     function interface(interface_name)
@@ -141,52 +121,48 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       }
     }
   </script>
+  <title>Learing</title> 
+  <body>
+  <font color="00000"><h2>誤差公式 Estimation and Error Formula</h2> 
+    1. 最大誤差 = [準確度/2]<br>
+    Maximum Error = [Precision/2]<p>
+    2. 相對誤差  = [最大誤差/ 量度值] 或 [最大誤差/ 真實值]<br>
+    Relative Error = [Maximum Error/ Measured Value] or [Maximum Error/ True Value]<p>
+    3. 百分誤差 = [相對誤差 × 100%]  或 [最大誤差/ 量度值  × 100%]<br>
+    Percentage Error = [Relative Error × 100%] or [Maximum Error/ Measured Value × 100%]<p>
+    4. 上限 = [量度值 ＋ 最大誤差]<br>
+    Upper Limit  = [Measured Value + Maximum Error]<p>
+    5. 下限 = [量度值 － 最大誤差]<br>
+    Lower Limit = [Measured Value － Maximum Error]<p>
+    6. 可能範圍 = 下限 至 上限 之間<br>
+    Range = Lower Limit to Upper Limit<p>
 
-<!DOCTYPE html>
+<h2>百分比公式 Percentage Formula</h2>
+1. 增值 = [新值 － 原值]<br>
+Value Increased = [New Value － Original Value]<p>
+減值 = [原值 － 新值]<br>
+Value Decreased = [Original value － New value]<p>
+2. 百分數增加 = [增值 / 原值] = [(新值 － 原值)/ 原值]<br>
+Percentage Increased = [Value Increased / Original Value] = [(New value －Original value)/ Original value]<p>
+3. 百分數減少 = [減值 / 原值] = [(原值 － 新值)/ 原值]<br>
+Percentage Decreased = [Value Decreased / Original Value] = [(Original value －New value)/ Original value]<p>
+4. 新值 = [原值 × (1 + 增加%)]<br>
+New Value = [Original Value × (1 + % Increase)]<p>
+新值 = [原值 × (1 － 減少%)]<br>
+New Value = [Original Value × (1 － % Decrease)]<p>
+5. 折扣 = [標價 － 售價]<br>
+Discount = [Marked Price － Selling Price]<p>
+6. 折扣% = [折扣/ 標價 × 100%]<br>
+Discount% = [Discount/ Marked Price × 100%]<p>
+7. 售價 = [標價 × (1 － 折扣%)]<br>
+Selling Price = [Marked Price × (1 － Discount%)]<p>
+8. 盈利 = [售價 － 成本]<br>
+Profit = [Selling Price － Cost]<p>
+虧蝕 = [成本 － 售價]<br>
+Loss = [Cost － Selling Price]<p>
+9. 售價 = [成本 × (1 + 盈利%)]<br>
+Selling Price = [Cost × (1 + Profit%)]<p>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Ka Ho">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="keywords" content="E02-Login&registerpage">
-  <link rel="stylesheet" href=".\.\style4.css">
-  <meta charset="UTF-8">
-    <title>試題練習</title>
-    <link rel="stylesheet" type="text/css" href="styles1.css">
-</head>
-
-<body>
-  <table border="0">
-    <tr>
-      <td width="400">
-      </td>
-      <td colspan="3" align="center" width="400">
-      <font color="00000" size"8"><B><U>數學科選擇題練習</font>
-  </td>
-  <td width="400">
-  </td>
-  </tr>
-  <td>
-  <font color="00000"><B>﹙請選擇想要進行練習的題數﹚</font>
-  </td>
-  <tr>
-    <td>
-    <div class="container">
-        <form action="quiz.php" method="POST">
-            <label for="num_questions"><B>請選擇題目數量：</label>
-            <input type="number" name="num_questions" min="1" max="10" required><font color="00000">(MAX:10)</font>
-            <br>
-            <input type="submit" value="開始出題">
-        </form>
-    </div>
-  </td>
-  <td width="400">
-      </td>
-      <td width="400">
-      <font color="00000" size="5">本網站提供不同的數學選擇題練習，<br>練習完成後將會有提供正確答案和成績。請盡力完成練習！</font>
-      </td>
-  </tr>
-</body>
-</html>
+<h2>比率與比例公式 Rate and Ratio Formula</h2>
+速率 = [距離/ 時間]<br>
+Speed = [Distance/ Time]

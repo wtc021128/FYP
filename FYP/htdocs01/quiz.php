@@ -18,7 +18,7 @@ session_start();
 <body>
 <title>試題庫</title>
 <style>
-    body{background-image: url(mbg.jfif);
+    body{background-image: url(L1.jpg);
     background-size: cover;background-attachment: fixed;
     background-repeat: no-repeat;background-position: center;
     color: black;
@@ -43,7 +43,6 @@ session_start();
         <a href="login2.php">主頁</a>
         <a href="QA.php">試題庫</a>
         <a href="test.php">試題練習</a>
-        <a href="#">Learing</a>
      </nav>
 
      

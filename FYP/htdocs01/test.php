@@ -36,7 +36,7 @@
         <a href="login2.php">主頁</a>
         <a href="QA.php">試題庫</a>
         <a href="test.php">試題練習</a>
-        <a href="#">Learing</a>
+        <a href="Learing.php">Learing</a>
      </nav>
 
      
@@ -176,7 +176,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
     <div class="container">
         <form action="quiz.php" method="POST">
             <label for="num_questions"><B>請選擇題目數量：</label>
-            <input type="number" name="num_questions" min="1" max="10" required>(MAX:10)
+            <input type="number" name="num_questions" min="1" max="10" required><font color="00000">(MAX:10)</font>
             <br>
             <input type="submit" value="開始出題">
         </form>

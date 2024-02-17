@@ -1,0 +1,184 @@
+/*basic css*/
+:root {
+   --blue:#0097e6;
+   --red:#e74c3c;
+   --white:#fff;
+   --light-color:#aaa;
+   --black:#222;
+   --light-bg:#333;
+   --green: #74B74E;
+   --beige: rgba(171, 132, 97, 0.9);
+}
+
+* {
+   font-family: 'Arial', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+body{
+   margin:0;
+   padding:0;
+   background: url("../img/register_school.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+.p_text{
+   color:var(--blue);
+   font-size:1.7rem;
+   }
+
+   .required-text {
+      color: red;
+  }
+  
+
+/*************************************************************/
+/* screen size */
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;   
+   background-color: var(--light-bg);
+}
+/* message */
+.message {
+   position: sticky;
+   top:0;
+   max-width: 1200px;
+   padding:1.5rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:1.5rem;
+   z-index: 1000;
+   background-color: var(--light-bg);
+   margin:0 auto;
+}
+
+.message span {
+   color:var(--white);
+   font-size: 2rem;
+}
+
+.message i {
+   color:var(--red);
+   font-size: 2.5rem;
+   cursor: pointer;
+}
+
+.message i:hover{
+   color:var(--white);
+}
+
+
+/*************************************************************/
+/* 4. form design centre page*/
+.form-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+   min-height: 100vh;
+}
+
+.form-container form {
+   width: 50rem;
+   border-radius: .5rem;
+   background-color: var(--black);
+   padding:2rem;
+   text-align: center;
+}
+
+.form-container form h3{
+   font-size: 3rem;
+   margin-bottom: 1rem;
+   color:var(--white);
+   text-transform: uppercase;
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: .5rem;
+   padding:1.2rem 1.4rem;
+   font-size: 1.8rem;
+   color:var(--white);
+   background-color: var(--light-bg);
+   margin:1rem 0;
+}
+
+form-container form p{
+   font-size: 2.3rem;
+   color:var(--light-color);
+   padding:1rem 0;
+}
+
+form-container form p a{
+   color:var(--red);
+}
+
+.btn {
+   background-color: var(--blue);
+   color:var(--white);
+   font-size: 1.8rem;
+   cursor: pointer;
+   padding:1rem 3rem;
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 1rem;
+   display: block;
+   width: 100%;
+   border-radius: .5rem;
+}
+
+
+/* 2. register now button*/
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: var(--white);
+   color:var(--black);
+}
+
+a {
+   color: var(--red);
+   font-size:1.7rem;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+/* headline*/
+form-container form p a:hover{
+   text-decoration: underline;
+}
+
+ /* media queries  */
+
+ @media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+   .flex-btn{
+      flex-flow: column;
+      gap:0;
+   }
+
+}

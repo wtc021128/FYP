@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_3df.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="3DF_ID">3DF_ID:</label>
   <input type="text" id="3DF_ID" name="3DF_ID" placeholder="格式:3DF000-3DF999" required>
   <input type="hidden" name="imagestring" id="imagestring">

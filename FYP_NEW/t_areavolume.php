@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_a.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="a_ID">a_ID:</label>
   <input type="text" id="a_ID" name="a_ID" placeholder="格式:aa000-aa999" required>
   <input type="hidden" name="imagestring" id="imagestring">

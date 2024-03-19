@@ -29,7 +29,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="qe_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_qe.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="QE_ID">QE_ID:</label>
   <input type="text" id="QE_ID" name="QE_ID" placeholder="格式:QE000-QE999" required>
   <input type="hidden" name="imagestring" id="imagestring">

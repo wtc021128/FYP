@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_cgosl.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="cgosl_ID">cgosl_ID:</label>
   <input type="text" id="cgosl_ID" name="cgosl_ID" placeholder="格式:cgosl000-cgosl999" required>
   <input type="hidden" name="imagestring" id="imagestring">

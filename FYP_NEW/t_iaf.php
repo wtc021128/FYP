@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_iaf.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="iaf_ID">iaf_ID:</label>
   <input type="text" id="iaf_ID" name="iaf_ID" placeholder="格式:iaf000-iaf999" required>
   <input type="hidden" name="imagestring" id="imagestring">

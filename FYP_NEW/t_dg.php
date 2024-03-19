@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_dg.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="dg_ID">dg_ID:</label>
   <input type="text" id="dg_ID" name="dg_ID" placeholder="格式:dg000-dg999" required>
   <input type="hidden" name="imagestring" id="imagestring">

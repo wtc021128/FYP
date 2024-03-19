@@ -28,7 +28,7 @@ include_once 'adminpage01.php';
         }
     </script>
 
-<form method="POST" action="c_upload.php" enctype="multipart/form-data" onsubmit="return checkInput()">
+<form method="POST" action="upconfig_dnnl.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="dnnl_ID">dnnl_ID:</label>
   <input type="text" id="dnnl_ID" name="dnnl_ID" placeholder="格式:dnnl000-dnnl999" required>
   <input type="hidden" name="imagestring" id="imagestring">

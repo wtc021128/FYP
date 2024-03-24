@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    clear: both;
+    width: 100%;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+      
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+.row + .row {
+    margin-top: 50px;
+  }

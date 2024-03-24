@@ -1,11 +1,8 @@
-<?php
-include_once 'adminpage01.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edgee,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OCR using Javascript and appscript</title>
     <style>
@@ -63,23 +60,44 @@ include_once 'adminpage01.php';
             font-size: 16px;
             resize: none;
         }
+
+          /* Style for the button */
+  .goback-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* Style for positioning */
+  .container {
+    text-align: right;
+  }
     </style>
 </head>
 <body>
     <div class="ocr">
-        <h1 style="color:#007bff;">OCR image and pdf to text</h1>
+        <h1 style="color:#007bff;">Image And PDF OCR Tool</h1>
         <h2 class="message"></h2>
-        <span>Select a File jpg,png,pdf~ Wait for a minute Loading</span>
+        <span>Select a File</span>
         <input type="file" class="file">
         <button class="btn">Perform OCR</button>
         <span>Result Text</span>
         <textarea class="text"></textarea>
     </div>
-    
-
+    <div class="container">
+        <button class="goback-btn" onclick="goBack()">Go Back</button>
+    </div>
     <script>
         //carlos google apps script 
-        let api = " https://script.google.com/macros/s/AKfycbwIgUDWJy5x2Lc8ypUzX2WbHCtBFsOtutdVVaT76kUM2yf-_qj-oTJCKPoJeaiHHMZu/exec ";
+        let api = "https://script.google.com/macros/s/AKfycby-x3xw0tgixfLUTMdK1RhqIsB26p-cIHF6opkEoCr94FSN0At14qGx-xLjYFZRPOrZdw/exec";
         let msg = document.querySelector(".message");
         let file = document.querySelector(".file");
         let btn = document.querySelector(".btn");
@@ -106,6 +124,11 @@ include_once 'adminpage01.php';
                   });
             }
         })
+
+        
+function goBack() {
+  window.history.back();
+}
     </script>
 </body>
 </html>

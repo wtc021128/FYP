@@ -35,8 +35,10 @@ if ($_SESSION['user_type'] === 'admin' || $_SESSION['user_type'] === 'teacher') 
 <form method="POST" action="upconfig_c.php" enctype="multipart/form-data" onsubmit="return checkInput()">
   <label for="C_ID">C_ID:</label>
   <input type="text" id="C_ID" name="C_ID" placeholder="格式:CC000-CC999" required>
-  <input type="hidden" name="imagestring" id="imagestring">
-  <input accept="image/*" id="C_Photo" type="file">
+
+  <input type="file" name="my_image" >
+  <input type="submit" name="submit" value="Upload">
+  
   <label for="C_Subject">C_Subject:</label>
   <input type="text" id="C_Subject" name="C_Subject">
   <label for="C_Answer">C_Answer:</label>

@@ -12,7 +12,7 @@ include_once 'adminpage01.php';
 $numQuestions = $_POST["num_questions"];
 
 // 題目
-$sql = "SELECT * FROM Question ORDER BY RAND() LIMIT :numQuestions";
+$sql = "SELECT * FROM question ORDER BY RAND() LIMIT :numQuestions";
 $stmt = $conn->prepare($sql);
 $stmt->bindValue(':numQuestions', $numQuestions, PDO::PARAM_INT);
 $stmt->execute();
